@@ -130,11 +130,10 @@ export default function App() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl shadow-slate-200/50 border border-white/20"
             >
-              <img 
-                src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1974&auto=format&fit=crop" 
-                alt="Tapis blanc avant et après nettoyage" 
+              <AIGeneratedImage 
+                prompt="Photo très lumineuse et professionnelle d'un nettoyage de vitres à l'eau pure. On voit une brosse au bout d'une perche télescopique nettoyant une grande baie vitrée de maison. L'eau pure coule sur la vitre étincelante. Ciel bleu, grand soleil, haute résolution, style photoréaliste."
+                alt="Lavage de vitres à l'eau pure" 
                 className="absolute inset-0 w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-8">
